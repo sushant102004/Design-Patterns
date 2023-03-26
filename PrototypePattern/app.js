@@ -35,6 +35,9 @@ const mercedes = carHandler.createMercedes2022()
 const bharatBenz = carHandler.createBharatBenzTruck()
 
 
+console.log('Prototype Objects: -')
+console.log()
+
 console.log(mercedes)
 console.log(bharatBenz)
 
@@ -42,4 +45,8 @@ console.log(bharatBenz)
 
 mercedes.topSpeed = '318 Km/h'
 
+console.log()
+
+console.log('After adding top speed value: -')
+console.log()
 console.log(mercedes)
