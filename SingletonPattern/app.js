@@ -1,6 +1,6 @@
 const SingletonDesignPattern = (function() {
     let processManager
-
+    
     class ProcessManager {
         constructor() {
             this.numberOfProcesses = 0
